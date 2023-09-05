@@ -63,6 +63,8 @@ const stack = new MyStack();
 console.log("Pushing",stack.push(10));
 console.log("Pushing",stack.push(20));
 console.log("Pushing",stack.push(30));
+console.log("searching", stack.search(30))
+console.log("searching", stack.search(3))
 console.log("Peeking",stack.peek());
 console.log("Popping");
 stack.pop();
